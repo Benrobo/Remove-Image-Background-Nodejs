@@ -5,7 +5,6 @@ const app = express();
 const ejs = require('ejs')
 
 app.set("view engine", "ejs");
-// app.use("views", path.join(__dirname, "/views"))
 const {router} = require('./routes/router')
 app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, '/views')));

@@ -6,7 +6,6 @@ btn.onclick = (e)=>{
 
     let formdata = new FormData(form);
     let obj = Object.fromEntries(formdata);
-
     postImage(obj)
 }
 
